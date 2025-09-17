@@ -21,7 +21,9 @@ export default function Hero() {
 
               {/* Subheading */}
               <p className="text-radut-pink font-inter text-lg md:text-xl font-normal leading-[140%] max-w-[583px] lg:pr-[22px]">
-                RadutVerse is the home of tokenized IP a superverse where NFTs, tokens, and AI come together to unlock infinite possibilities for creators and communities.
+                RadutVerse is the home of tokenized IP a superverse where NFTs,
+                tokens, and AI come together to unlock infinite possibilities
+                for creators and communities.
               </p>
             </div>
 

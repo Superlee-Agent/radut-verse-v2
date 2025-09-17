@@ -30,7 +30,11 @@ export default function Features() {
 
           {/* Description */}
           <p className="text-radut-pink font-inter text-lg font-normal leading-[140%] text-center max-w-[644px]">
-            RadutVerse is the home of tokenized IP a digital world where ideas become assets. Here, creators can transform their intellectual property into NFTs, trade seamlessly through token swaps, and unlock new possibilities with AI-powered agents. More than just a platform, RadutVerse is a superverse built to power the future of IP.
+            RadutVerse is the home of tokenized IP a digital world where ideas
+            become assets. Here, creators can transform their intellectual
+            property into NFTs, trade seamlessly through token swaps, and unlock
+            new possibilities with AI-powered agents. More than just a platform,
+            RadutVerse is a superverse built to power the future of IP.
           </p>
         </motion.div>
 
