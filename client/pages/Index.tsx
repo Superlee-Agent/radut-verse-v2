@@ -13,10 +13,18 @@ export default function Index() {
     <div id="top" className="min-h-screen bg-radut-black">
       <Navigation />
       <Hero />
-      <div id="about"><Features /></div>
-      <div id="team"><Team /></div>
-      <div id="news"><BlockchainFeatures /></div>
-      <div id="faq"><FAQ /></div>
+      <div id="about">
+        <Features />
+      </div>
+      <div id="team">
+        <Team />
+      </div>
+      <div id="news">
+        <BlockchainFeatures />
+      </div>
+      <div id="faq">
+        <FAQ />
+      </div>
       <Footer />
       <BackToTop />
     </div>

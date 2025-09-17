@@ -104,21 +104,40 @@
     @apply border-border;
   }
 
-  html { scroll-behavior: smooth; }
+  html {
+    scroll-behavior: smooth;
+  }
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family:
+      "Inter",
+      -apple-system,
+      BlinkMacSystemFont,
+      sans-serif;
   }
 
   /* Scrollbar theming */
   /* WebKit */
-  ::-webkit-scrollbar { width: 10px; height: 10px; }
-  ::-webkit-scrollbar-track { background: #0a0a0a; }
-  ::-webkit-scrollbar-thumb { background: #FF0088; border-radius: 8px; }
-  ::-webkit-scrollbar-thumb:hover { background: #BB1A70; }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #ff0088;
+    border-radius: 8px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #bb1a70;
+  }
   /* Firefox */
-  * { scrollbar-color: #FF0088 #0a0a0a; scrollbar-width: thin; }
+  * {
+    scrollbar-color: #ff0088 #0a0a0a;
+    scrollbar-width: thin;
+  }
 
   /* Radutverse specific styles */
   .radut-background {
@@ -127,29 +146,29 @@
 
   .radut-card {
     background: rgba(255, 255, 255, 0.04);
-    border: 1px solid #69023C;
+    border: 1px solid #69023c;
     backdrop-filter: blur(20px);
   }
 
   .radut-card-team {
     background: #000000;
-    border: 1px solid #69023C;
+    border: 1px solid #69023c;
     backdrop-filter: blur(4.59px);
   }
 
   .radut-button-primary {
-    background: #FF0088;
+    background: #ff0088;
     color: #000000;
   }
 
   .radut-button-secondary {
-    border: 1.5px solid #69023C;
+    border: 1.5px solid #69023c;
     background: transparent;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .radut-text-gradient {
-    background: linear-gradient(0deg, #FFF 0%, #FFF 100%);
+    background: linear-gradient(0deg, #fff 0%, #fff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

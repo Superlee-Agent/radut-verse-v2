@@ -3,28 +3,43 @@ export default function Navigation() {
     <nav className="flex justify-between items-center px-4 md:px-8 lg:px-[120px] pt-6 pb-5 border-b border-radut-pink-dark bg-radut-black">
       {/* Logo */}
       <div className="flex items-center gap-3">
-        <img 
-          src="https://api.builder.io/api/v1/image/assets/TEMP/b74e70b0bf94ee188832387fb472fb0ade4d5a51?width=306" 
-          alt="Radutverse Logo" 
+        <img
+          src="https://api.builder.io/api/v1/image/assets/TEMP/b74e70b0bf94ee188832387fb472fb0ade4d5a51?width=306"
+          alt="Radutverse Logo"
           className="h-[45.87px] w-[105px] object-contain"
         />
       </div>
 
       {/* Navigation Items - Hidden on mobile, shown on desktop */}
       <div className="hidden lg:flex items-center gap-10 self-stretch">
-        <a href="#top" className="text-white font-alexandria text-base font-normal hover:text-radut-pink transition-colors">
+        <a
+          href="#top"
+          className="text-white font-alexandria text-base font-normal hover:text-radut-pink transition-colors"
+        >
           Home
         </a>
-        <a href="#about" className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors">
+        <a
+          href="#about"
+          className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
+        >
           About
         </a>
-        <a href="#team" className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors">
+        <a
+          href="#team"
+          className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
+        >
           Team
         </a>
-        <a href="#news" className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors">
+        <a
+          href="#news"
+          className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
+        >
           News
         </a>
-        <a href="#faq" className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors">
+        <a
+          href="#faq"
+          className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
+        >
           FAQ
         </a>
       </div>
@@ -39,8 +54,18 @@ export default function Navigation() {
       {/* Mobile Menu Button (hidden) */}
       <div className="hidden">
         <button className="text-white p-2">
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M4 6h16M4 12h16M4 18h16"
+            />
           </svg>
         </button>
       </div>
