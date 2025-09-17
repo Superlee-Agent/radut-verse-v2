@@ -6,9 +6,10 @@ export default function BackToTop() {
   useEffect(() => {
     const onScroll = () => {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      const nearBottom = scrollTop > docHeight * 0.8; // show after 80% scroll
-      setVisible(nearBottom);
+      const clientH = document.documentElement.clientHeight;
+      const scrollH = document.documentElement.scrollHeight;
+      const atBottom = scrollTop + clientH >= scrollH - 16; // show when near bottom
+      setVisible(atBottom);
     };
 
     window.addEventListener("scroll", onScroll, { passive: true });
