@@ -5,15 +5,15 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-12">
           
           {/* Left Content */}
-          <div className="flex flex-col items-start gap-10 flex-1 text-center lg:text-left">
+          <div className="flex flex-col items-start gap-10 flex-1 text-center lg:text-left lg:mr-[-44px]">
             <div className="flex flex-col items-start gap-6 w-full">
               {/* Main Heading */}
-              <h1 className="text-white font-alexandria text-4xl md:text-5xl lg:text-[64px] font-bold leading-[110%] capitalize max-w-[737px] lg:-mr-9">
+              <h1 className="text-white font-alexandria text-4xl md:text-5xl lg:text-[64px] font-bold leading-[110%] capitalize max-w-[737px] lg:mr-[-86px]">
                 The Home of Tokenized IP
               </h1>
               
               {/* Subheading */}
-              <p className="text-radut-pink font-inter text-lg md:text-xl font-normal leading-[140%] max-w-[583px] lg:-mr-1">
+              <p className="text-radut-pink font-inter text-lg md:text-xl font-normal leading-[140%] max-w-[583px] lg:pr-[22px]">
                 Secure, scalable, and decentralized solutions for your digital assets—experience the future of financial freedom.
               </p>
             </div>
@@ -35,12 +35,12 @@ export default function Hero() {
 
           {/* Right - 3D Graphic */}
           <div className="w-full max-w-[512px] h-[300px] md:h-[400px] lg:w-[512px] lg:h-[512px] relative flex items-center justify-center">
-            <div className="relative w-full h-full">
+            <div className="relative w-full h-full flex justify-center">
               {/* 3D Spiral/Torus Graphic */}
               <img 
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F45b2780dcb344ee8b9b9ec6dd8d4fecb"
                 alt="Character"
-                className="w-full h-full object-contain animate-float mb-[-4px]"
+                className="w-auto h-full object-contain mb-[-4px]"
               />
               
               {/* Glow effect background */}
