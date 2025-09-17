@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export default function Navigation() {
   return (
     <nav className="flex justify-between items-center px-4 md:px-8 lg:px-[120px] pt-6 pb-5 border-b border-radut-pink-dark bg-radut-black">
@@ -14,36 +12,21 @@ export default function Navigation() {
 
       {/* Navigation Items - Hidden on mobile, shown on desktop */}
       <div className="hidden lg:flex items-center gap-10 self-stretch">
-        <Link 
-          to="/" 
-          className="text-white font-alexandria text-base font-normal hover:text-radut-pink transition-colors"
-        >
+        <a href="#top" className="text-white font-alexandria text-base font-normal hover:text-radut-pink transition-colors">
           Home
-        </Link>
-        <Link 
-          to="/about" 
-          className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
-        >
+        </a>
+        <a href="#about" className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors">
           About
-        </Link>
-        <Link 
-          to="/team" 
-          className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
-        >
+        </a>
+        <a href="#team" className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors">
           Team
-        </Link>
-        <Link 
-          to="/news" 
-          className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
-        >
+        </a>
+        <a href="#news" className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors">
           News
-        </Link>
-        <Link 
-          to="/faq" 
-          className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
-        >
+        </a>
+        <a href="#faq" className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors">
           FAQ
-        </Link>
+        </a>
       </div>
 
       {/* Auth Buttons - Hidden on mobile, shown on tablet+ */}
