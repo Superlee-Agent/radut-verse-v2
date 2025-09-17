@@ -15,7 +15,7 @@ export default function Features() {
           
           {/* Title */}
           <h2 className="text-white font-alexandria text-3xl md:text-4xl lg:text-5xl font-normal leading-[100%] capitalize text-center">
-            Future Breakdown
+            Introducing the RadutVerse
           </h2>
           
           {/* Description */}
