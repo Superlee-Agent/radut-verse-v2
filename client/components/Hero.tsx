@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 
+import { motion } from "framer-motion";
+
 export default function Hero() {
   return (
     <section className="bg-radut-black px-4 md:px-8 lg:px-[120px]">
@@ -21,8 +23,7 @@ export default function Hero() {
 
               {/* Subheading */}
               <p className="text-radut-pink font-inter text-lg md:text-xl font-normal leading-[140%] max-w-[583px] lg:pr-[22px]">
-                Secure, scalable, and decentralized solutions for your digital
-                assets—experience the future of financial freedom.
+                RadutVerse is the home of tokenized IP a superverse where NFTs, tokens, and AI come together to unlock infinite possibilities for creators and communities.
               </p>
             </div>
 
