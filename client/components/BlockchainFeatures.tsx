@@ -14,7 +14,7 @@ export default function BlockchainFeatures() {
           
           {/* Title */}
           <h2 className="text-white font-alexandria text-3xl md:text-4xl lg:text-5xl font-normal leading-[100%] capitalize text-center">
-            The Future Of Blockchain Technology
+            News
           </h2>
           
           {/* Description */}
