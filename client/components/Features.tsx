@@ -9,7 +9,7 @@ export default function Features() {
       
       <div className="relative z-10">
         {/* Section Header */}
-        <div className="flex flex-col items-center gap-5 mb-16 md:mb-20">
+        <motion.div className="flex flex-col items-center gap-5 mb-16 md:mb-20" initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{duration:0.5}}>
           {/* Badge */}
           <div className="flex justify-center items-center gap-2 px-5 py-3 border border-radut-pink-dark rounded-3xl backdrop-blur-[20px]">
             <span className="text-radut-pink font-alexandria text-sm font-normal">About</span>
@@ -24,7 +24,7 @@ export default function Features() {
           <p className="text-radut-pink font-inter text-lg font-normal leading-[140%] text-center max-w-[644px]">
             Secure, scalable, and decentralized solutions for your digital assets—experience the future of financial freedom.
           </p>
-        </div>
+        </motion.div>
 
         {/* Feature Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
