@@ -6,16 +6,19 @@ import BlockchainFeatures from "../components/BlockchainFeatures";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 
+import BackToTop from "../components/BackToTop";
+
 export default function Index() {
   return (
-    <div className="min-h-screen bg-radut-black">
+    <div id="top" className="min-h-screen bg-radut-black">
       <Navigation />
       <Hero />
-      <Features />
-      <Team />
-      <BlockchainFeatures />
-      <FAQ />
+      <div id="about"><Features /></div>
+      <div id="team"><Team /></div>
+      <div id="news"><BlockchainFeatures /></div>
+      <div id="faq"><FAQ /></div>
       <Footer />
+      <BackToTop />
     </div>
   );
 }
