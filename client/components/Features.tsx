@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 
+import { motion } from "framer-motion";
+
 export default function Features() {
   return (
     <section className="bg-radut-black px-4 md:px-8 lg:px-[120px] py-16 md:py-20 relative">
@@ -30,8 +32,7 @@ export default function Features() {
 
           {/* Description */}
           <p className="text-radut-pink font-inter text-lg font-normal leading-[140%] text-center max-w-[644px]">
-            Secure, scalable, and decentralized solutions for your digital
-            assets—experience the future of financial freedom.
+            RadutVerse is the home of tokenized IP a digital world where ideas become assets. Here, creators can transform their intellectual property into NFTs, trade seamlessly through token swaps, and unlock new possibilities with AI-powered agents. More than just a platform, RadutVerse is a superverse built to power the future of IP.
           </p>
         </motion.div>
 
