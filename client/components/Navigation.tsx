@@ -2,18 +2,18 @@ import { Link } from "react-router-dom";
 
 export default function Navigation() {
   return (
-    <nav className="flex justify-between items-center px-4 md:px-8 lg:px-[120px] py-5 border-b border-radut-pink-dark bg-radut-black">
+    <nav className="flex justify-between items-center px-4 md:px-8 lg:px-[120px] pt-6 pb-5 border-b border-radut-pink-dark bg-radut-black">
       {/* Logo */}
       <div className="flex items-center gap-3">
         <img 
           src="https://api.builder.io/api/v1/image/assets/TEMP/b74e70b0bf94ee188832387fb472fb0ade4d5a51?width=306" 
           alt="Radutverse Logo" 
-          className="h-[45.87px] w-[153px] object-contain"
+          className="h-[45.87px] w-[105px] object-contain"
         />
       </div>
 
       {/* Navigation Items - Hidden on mobile, shown on desktop */}
-      <div className="hidden lg:flex items-center gap-10">
+      <div className="hidden lg:flex items-center gap-10 self-stretch">
         <Link 
           to="/" 
           className="text-white font-alexandria text-base font-normal hover:text-radut-pink transition-colors"

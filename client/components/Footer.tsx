@@ -132,7 +132,7 @@ export default function Footer() {
 
       {/* Footer Bottom */}
       <div className="flex justify-between items-start py-10 border-t border-radut-pink-dark/30">
-        <p className="text-radut-pink font-alexandria text-xs font-normal">
+        <p className="text-radut-pink font-alexandria text-xs font-normal mx-auto">
           © 2025. All rights reserved. | Radutverse
         </p>
       </div>
