@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
 
           {/* Link Columns */}
-          <div className="flex flex-col md:flex-row gap-8 md:gap-12 lg:gap-16">
+          <div className="flex flex-col md:flex-row gap-8 md:gap-12 lg:gap-[65px] lg:mr-[-66px]">
             
             {/* Quick Links */}
             <div className="flex flex-col gap-6">
@@ -37,18 +37,21 @@ export default function Footer() {
                 Quick links
               </h4>
               <div className="flex flex-col gap-2">
-                <Link to="/" className="text-radut-pink font-alexandria text-sm font-normal hover:text-white transition-colors">
+                <a href="#top" className="text-radut-pink font-alexandria text-sm font-normal hover:text-white transition-colors">
                   Home
-                </Link>
-                <Link to="/features" className="text-radut-pink font-alexandria text-sm font-normal hover:text-white transition-colors">
-                  Features
-                </Link>
-                <Link to="/community" className="text-radut-pink font-alexandria text-sm font-normal hover:text-white transition-colors">
-                  Community
-                </Link>
-                <Link to="/support" className="text-radut-pink font-alexandria text-sm font-normal hover:text-white transition-colors">
-                  Support
-                </Link>
+                </a>
+                <a href="#about" className="text-radut-pink font-alexandria text-sm font-normal hover:text-white transition-colors">
+                  About
+                </a>
+                <a href="#team" className="text-radut-pink font-alexandria text-sm font-normal hover:text-white transition-colors">
+                  Team
+                </a>
+                <a href="#news" className="text-radut-pink font-alexandria text-sm font-normal hover:text-white transition-colors">
+                  News
+                </a>
+                <a href="#terms" className="text-radut-pink font-alexandria text-sm font-normal hover:text-white transition-colors">
+                  Term of Use
+                </a>
               </div>
             </div>
 
@@ -131,7 +134,7 @@ export default function Footer() {
       </div>
 
       {/* Footer Bottom */}
-      <div className="flex justify-between items-start py-10 border-t border-radut-pink-dark/30">
+      <div id="terms" className="flex justify-between items-start py-10 border-t border-radut-pink-dark/30">
         <p className="text-radut-pink font-alexandria text-xs font-normal mx-auto">
           © 2025. All rights reserved. | Radutverse
         </p>
