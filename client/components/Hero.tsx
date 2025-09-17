@@ -2,18 +2,18 @@ export default function Hero() {
   return (
     <section className="bg-radut-black px-4 md:px-8 lg:px-[120px]">
       <div className="py-16 md:py-22 lg:py-[88px] flex flex-col justify-center items-center gap-8">
-        <div className="flex flex-col lg:flex-row justify-between items-center w-full gap-12 lg:gap-8">
+        <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-12">
           
           {/* Left Content */}
           <div className="flex flex-col items-start gap-10 flex-1 text-center lg:text-left">
             <div className="flex flex-col items-start gap-6 w-full">
               {/* Main Heading */}
-              <h1 className="text-white font-alexandria text-4xl md:text-5xl lg:text-[64px] font-bold leading-[110%] capitalize max-w-[661px]">
-                Revolutionizing Web3 Finance
+              <h1 className="text-white font-alexandria text-4xl md:text-5xl lg:text-[64px] font-bold leading-[110%] capitalize max-w-[737px] lg:-mr-9">
+                The Home of Tokenized IP
               </h1>
               
               {/* Subheading */}
-              <p className="text-radut-pink font-inter text-lg md:text-xl font-normal leading-[140%] max-w-[583px]">
+              <p className="text-radut-pink font-inter text-lg md:text-xl font-normal leading-[140%] max-w-[583px] lg:-mr-1">
                 Secure, scalable, and decentralized solutions for your digital assets—experience the future of financial freedom.
               </p>
             </div>
@@ -38,9 +38,9 @@ export default function Hero() {
             <div className="relative w-full h-full">
               {/* 3D Spiral/Torus Graphic */}
               <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/2a9d1543aad28af1325f60113bce6ea65e655245?width=1024" 
-                alt="3D Spiral Graphic" 
-                className="w-full h-full object-contain animate-float"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F45b2780dcb344ee8b9b9ec6dd8d4fecb"
+                alt="Character"
+                className="w-full h-full object-contain animate-float mb-[-4px]"
               />
               
               {/* Glow effect background */}
