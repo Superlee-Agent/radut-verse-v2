@@ -42,7 +42,7 @@ export default function FAQ() {
       
       <div className="relative z-10">
         {/* Section Header */}
-        <div className="flex flex-col items-center gap-5 mb-16 md:mb-18">
+        <motion.div className="flex flex-col items-center gap-5 mb-16 md:mb-18" initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{duration:0.5}}>
           {/* Badge */}
           <div className="flex justify-center items-center gap-2 px-5 py-3 border border-radut-pink-dark rounded-3xl backdrop-blur-[20px]">
             <span className="text-radut-pink font-alexandria text-sm font-normal">FAQ</span>
@@ -57,7 +57,7 @@ export default function FAQ() {
           <p className="text-radut-pink font-inter text-lg font-normal leading-[140%] text-center max-w-[644px]">
             From basics to advanced topics, find everything you need to know right here. Let us help you simplify the process and find the clarity you're looking
           </p>
-        </div>
+        </motion.div>
 
         {/* FAQ Items */}
         <div className="flex flex-col gap-7 max-w-[792px] mx-auto">
