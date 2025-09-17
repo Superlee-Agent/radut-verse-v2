@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export default function Features() {
   return (
     <section className="bg-radut-black px-4 md:px-8 lg:px-[120px] py-16 md:py-20 relative">
