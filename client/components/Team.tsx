@@ -35,7 +35,7 @@ export default function Team() {
       
       <div className="relative z-10">
         {/* Section Header */}
-        <div className="flex flex-col items-center gap-5 mb-16 md:mb-18">
+        <motion.div className="flex flex-col items-center gap-5 mb-16 md:mb-18" initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{duration:0.5}}>
           {/* Badge */}
           <div className="flex justify-center items-center gap-2 px-5 py-3 border border-radut-pink-dark rounded-3xl backdrop-blur-[20px]">
             <span className="text-radut-pink font-alexandria text-sm font-normal">Team</span>
@@ -50,12 +50,12 @@ export default function Team() {
           <p className="text-radut-pink font-inter text-lg font-normal leading-[140%] text-center max-w-[644px]">
             Leading the way in blockchain innovation, we are redefining how the world connects, secures, and transacts, bringing a new era of decentralized technology.
           </p>
-        </div>
+        </motion.div>
 
         {/* Team Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1138px] mx-auto">
           {teamMembers.map((member, index) => (
-            <div key={index} className="radut-card-team flex flex-col items-start gap-8 p-8 rounded-2xl">
+            <motion.div key={index} className="radut-card-team flex flex-col items-start gap-8 p-8 rounded-2xl" initial={{opacity:0, y:20}} whileInView={{opacity:1, y:0}} viewport={{once:true}} transition={{duration:0.45, delay: index * 0.05}} whileHover={{scale:1.01}}>
               {/* Quote */}
               <p className="text-radut-gray font-alexandria text-base font-normal leading-normal">
                 "{member.quote}"
@@ -82,7 +82,7 @@ export default function Team() {
                   </p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
