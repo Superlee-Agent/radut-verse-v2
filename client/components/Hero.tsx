@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-12">
           
           {/* Left Content */}
-          <div className="flex flex-col items-start gap-10 flex-1 text-center lg:text-left lg:mr-[-44px]">
+          <motion.div className="flex flex-col items-start gap-10 flex-1 text-center lg:text-left lg:mr-[-44px]" initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{duration:0.6}}>
             <div className="flex flex-col items-start gap-6 w-full">
               {/* Main Heading */}
               <h1 className="text-white font-alexandria text-4xl md:text-5xl lg:text-[64px] font-bold leading-[110%] capitalize max-w-[737px] lg:mr-[-86px]">
@@ -33,7 +33,7 @@ export default function Hero() {
                 Watch video
               </button>
             </div>
-          </div>
+          </motion.div>
 
           {/* Right - 3D Graphic */}
           <div className="w-full max-w-[512px] h-[300px] md:h-[400px] lg:w-[512px] lg:h-[512px] relative flex items-center justify-center">
