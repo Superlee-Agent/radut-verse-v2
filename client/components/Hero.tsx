@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="bg-radut-black px-4 md:px-8 lg:px-[120px]">
+    <section className="bg-radut-black px-4 md:px-8 lg:px-[80px]">
       <div className="py-16 md:py-22 lg:py-[88px] flex flex-col justify-center items-center gap-8">
         <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-12">
           {/* Left Content */}
