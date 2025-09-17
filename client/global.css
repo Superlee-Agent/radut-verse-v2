@@ -106,5 +106,53 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  /* Radutverse specific styles */
+  .radut-background {
+    background: #000000;
+  }
+
+  .radut-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid #69023C;
+    backdrop-filter: blur(20px);
+  }
+
+  .radut-card-team {
+    background: #000000;
+    border: 1px solid #69023C;
+    backdrop-filter: blur(4.59px);
+  }
+
+  .radut-button-primary {
+    background: #FF0088;
+    color: #000000;
+  }
+
+  .radut-button-secondary {
+    border: 1.5px solid #69023C;
+    background: transparent;
+    color: #FFFFFF;
+  }
+
+  .radut-text-gradient {
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .radut-glow-blur {
+    filter: blur(139.9px);
+  }
+
+  /* Override default theme for dark design */
+  :root {
+    --background: 0 0% 0%; /* Black background */
+    --foreground: 0 0% 100%; /* White text */
+    --primary: 330 100% 52.5%; /* Pink #FF0088 */
+    --primary-foreground: 0 0% 0%; /* Black text on pink */
   }
 }
