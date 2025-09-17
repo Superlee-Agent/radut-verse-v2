@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 
-import { motion } from "framer-motion";
-
 export default function Hero() {
   return (
     <section className="bg-radut-black px-4 md:px-8 lg:px-[120px]">
