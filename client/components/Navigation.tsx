@@ -1,6 +1,6 @@
 export default function Navigation() {
   return (
-    <nav className="flex justify-between items-center px-4 md:px-8 lg:px-[120px] pt-6 pb-5 border-b border-radut-pink-dark bg-radut-black">
+    <nav className="flex justify-between items-center px-4 md:px-8 lg:px-[80px] pt-6 pb-5 border-b border-radut-pink-dark bg-radut-black">
       {/* Logo */}
       <div className="flex items-center gap-3">
         <img
