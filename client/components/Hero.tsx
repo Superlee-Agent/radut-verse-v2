@@ -31,7 +31,10 @@ export default function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center gap-5">
-              <Link to="/coming-soon" className="flex justify-center items-center gap-1.5 px-6 py-3.5 bg-radut-pink text-black font-alexandria text-lg font-normal rounded-full hover:bg-opacity-90 transition-all">
+              <Link
+                to="/coming-soon"
+                className="flex justify-center items-center gap-1.5 px-6 py-3.5 bg-radut-pink text-black font-alexandria text-lg font-normal rounded-full hover:bg-opacity-90 transition-all"
+              >
                 Explore
               </Link>
 

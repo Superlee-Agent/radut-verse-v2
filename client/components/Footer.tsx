@@ -37,25 +37,33 @@ export default function Footer() {
                 <NavLink
                   to="/"
                   end
-                  className={({ isActive }) => `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm font-normal hover:text-white transition-colors`}
+                  className={({ isActive }) =>
+                    `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm font-normal hover:text-white transition-colors`
+                  }
                 >
                   Home
                 </NavLink>
                 <NavLink
                   to="/about"
-                  className={({ isActive }) => `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm font-normal hover:text-white transition-colors`}
+                  className={({ isActive }) =>
+                    `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm font-normal hover:text-white transition-colors`
+                  }
                 >
                   About
                 </NavLink>
                 <NavLink
                   to="/team"
-                  className={({ isActive }) => `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm font-normal hover:text-white transition-colors`}
+                  className={({ isActive }) =>
+                    `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm font-normal hover:text-white transition-colors`
+                  }
                 >
                   Team
                 </NavLink>
                 <NavLink
                   to="/news"
-                  className={({ isActive }) => `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm font-normal hover:text-white transition-colors`}
+                  className={({ isActive }) =>
+                    `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm font-normal hover:text-white transition-colors`
+                  }
                 >
                   News
                 </NavLink>

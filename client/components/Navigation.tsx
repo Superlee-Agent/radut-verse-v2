@@ -59,7 +59,10 @@ export default function Navigation() {
 
       {/* Auth Buttons - Hidden on mobile, shown on tablet+ */}
       <div className="hidden md:flex items-center gap-4">
-        <Link to="/coming-soon" className="px-6 py-2 bg-radut-pink text-black font-alexandria text-base font-normal rounded-full hover:bg-opacity-90 transition-all">
+        <Link
+          to="/coming-soon"
+          className="px-6 py-2 bg-radut-pink text-black font-alexandria text-base font-normal rounded-full hover:bg-opacity-90 transition-all"
+        >
           Explore
         </Link>
       </div>
