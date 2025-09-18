@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="bg-radut-black px-4 md:px-8 lg:px-[80px]">
+    <section className="bg-radut-black bg-no-repeat bg-center bg-cover px-[80px]">
       <div className="py-16 md:py-22 lg:py-[88px] flex flex-col justify-center items-center gap-8">
-        <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-12">
+        <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-[33px]">
           {/* Left Content */}
           <motion.div
-            className="flex flex-col items-start gap-10 flex-1 text-center lg:text-left lg:mr-[-44px]"
+            className="flex flex-col items-start gap-10 flex-1 text-left"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -52,12 +52,12 @@ export default function Hero() {
 
           {/* Right - 3D Graphic */}
           <div className="w-full max-w-[512px] h-[300px] md:h-[400px] lg:w-[512px] lg:h-[512px] relative flex items-center justify-center">
-            <div className="relative w-full h-full flex justify-center">
+            <div className="relative w-full h-full flex justify-center mt-[188px] mr-[71px]">
               {/* 3D Spiral/Torus Graphic */}
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F45b2780dcb344ee8b9b9ec6dd8d4fecb"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F7558325392d941238c18bc493d43be1c"
                 alt="Character"
-                className="w-auto h-full object-contain mb-[-4px]"
+                className="w-auto h-full object-contain mr-[20px]"
               />
 
               {/* Glow effect background */}
