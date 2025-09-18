@@ -1,5 +1,3 @@
-import PlaceholderPage from "../components/PlaceholderPage";
-
 import { motion } from "framer-motion";
 import PlaceholderPage from "../components/PlaceholderPage";
 
