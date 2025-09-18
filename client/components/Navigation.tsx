@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 export default function Navigation() {
   return (
@@ -14,36 +14,47 @@ export default function Navigation() {
 
       {/* Navigation Items - Hidden on mobile, shown on desktop */}
       <div className="hidden lg:flex items-center gap-10 self-stretch">
-        <Link
+        <NavLink
           to="/"
-          className="text-white font-alexandria text-base font-normal hover:text-radut-pink transition-colors"
+          end
+          className={({ isActive }) =>
+            `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-base font-normal hover:text-white transition-colors`
+          }
         >
           Home
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to="/about"
-          className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
+          className={({ isActive }) =>
+            `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-base font-normal hover:text-white transition-colors`
+          }
         >
           About
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to="/team"
-          className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
+          className={({ isActive }) =>
+            `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-base font-normal hover:text-white transition-colors`
+          }
         >
           Team
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to="/news"
-          className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
+          className={({ isActive }) =>
+            `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-base font-normal hover:text-white transition-colors`
+          }
         >
           News
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to="/faq"
-          className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
+          className={({ isActive }) =>
+            `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-base font-normal hover:text-white transition-colors`
+          }
         >
           FAQ
-        </Link>
+        </NavLink>
       </div>
 
       {/* Auth Buttons - Hidden on mobile, shown on tablet+ */}

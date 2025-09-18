@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { NavLink, Link } from "react-router-dom";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
@@ -34,30 +35,31 @@ export default function Footer() {
                 Quick links
               </h4>
               <div className="flex flex-col gap-2">
-                <a
-                  href="#top"
-                  className="text-radut-pink font-alexandria text-sm font-normal hover:text-white transition-colors"
+                <NavLink
+                  to="/"
+                  end
+                  className={({ isActive }) => `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm font-normal hover:text-white transition-colors`}
                 >
                   Home
-                </a>
-                <a
-                  href="#about"
-                  className="text-radut-pink font-alexandria text-sm font-normal hover:text-white transition-colors"
+                </NavLink>
+                <NavLink
+                  to="/about"
+                  className={({ isActive }) => `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm font-normal hover:text-white transition-colors`}
                 >
                   About
-                </a>
-                <a
-                  href="#team"
-                  className="text-radut-pink font-alexandria text-sm font-normal hover:text-white transition-colors"
+                </NavLink>
+                <NavLink
+                  to="/team"
+                  className={({ isActive }) => `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm font-normal hover:text-white transition-colors`}
                 >
                   Team
-                </a>
-                <a
-                  href="#news"
-                  className="text-radut-pink font-alexandria text-sm font-normal hover:text-white transition-colors"
+                </NavLink>
+                <NavLink
+                  to="/news"
+                  className={({ isActive }) => `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm font-normal hover:text-white transition-colors`}
                 >
                   News
-                </a>
+                </NavLink>
                 <a
                   href="#terms"
                   className="text-radut-pink font-alexandria text-sm font-normal hover:text-white transition-colors"
