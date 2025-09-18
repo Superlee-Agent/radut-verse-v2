@@ -1,5 +1,4 @@
 import Navigation from "../components/Navigation";
-import Navigation from "../components/Navigation";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import BackToTop from "../components/BackToTop";
