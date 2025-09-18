@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Navigation() {
   return (
     <nav className="flex justify-between items-center px-4 md:px-8 lg:px-[80px] pt-6 pb-5 border-b border-radut-pink-dark bg-radut-black">
@@ -12,43 +14,43 @@ export default function Navigation() {
 
       {/* Navigation Items - Hidden on mobile, shown on desktop */}
       <div className="hidden lg:flex items-center gap-10 self-stretch">
-        <a
-          href="#top"
+        <Link
+          to="/"
           className="text-white font-alexandria text-base font-normal hover:text-radut-pink transition-colors"
         >
           Home
-        </a>
-        <a
-          href="#about"
+        </Link>
+        <Link
+          to="/about"
           className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
         >
           About
-        </a>
-        <a
-          href="#team"
+        </Link>
+        <Link
+          to="/team"
           className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
         >
           Team
-        </a>
-        <a
-          href="#news"
+        </Link>
+        <Link
+          to="/news"
           className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
         >
           News
-        </a>
-        <a
-          href="#faq"
+        </Link>
+        <Link
+          to="/faq"
           className="text-radut-pink font-alexandria text-base font-normal hover:text-white transition-colors"
         >
           FAQ
-        </a>
+        </Link>
       </div>
 
       {/* Auth Buttons - Hidden on mobile, shown on tablet+ */}
       <div className="hidden md:flex items-center gap-4">
-        <button className="px-6 py-2 bg-radut-pink text-black font-alexandria text-base font-normal rounded-full hover:bg-opacity-90 transition-all">
-          Start Exploring
-        </button>
+        <Link to="/coming-soon" className="px-6 py-2 bg-radut-pink text-black font-alexandria text-base font-normal rounded-full hover:bg-opacity-90 transition-all">
+          Explore
+        </Link>
       </div>
 
       {/* Mobile Menu Button (hidden) */}

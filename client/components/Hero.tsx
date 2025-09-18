@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 
+import { Link } from "react-router-dom";
+
 export default function Hero() {
   return (
     <section className="bg-radut-black bg-no-repeat bg-center bg-cover px-[80px]">
@@ -29,9 +31,9 @@ export default function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center gap-5">
-              <button className="flex justify-center items-center gap-1.5 px-6 py-3.5 bg-radut-pink text-black font-alexandria text-lg font-normal rounded-full hover:bg-opacity-90 transition-all">
-                Get Started
-              </button>
+              <Link to="/coming-soon" className="flex justify-center items-center gap-1.5 px-6 py-3.5 bg-radut-pink text-black font-alexandria text-lg font-normal rounded-full hover:bg-opacity-90 transition-all">
+                Explore
+              </Link>
 
               <button className="flex justify-center items-center gap-1.5 px-6 py-3.5 border-[1.5px] border-radut-pink-dark rounded-full text-white font-alexandria text-lg font-normal hover:bg-radut-pink-dark transition-all">
                 <svg
