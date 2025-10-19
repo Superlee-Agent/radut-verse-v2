@@ -2,26 +2,23 @@ import { NavLink, Link } from "react-router-dom";
 
 export default function Navigation() {
   return (
-    <nav className="flex justify-between items-center px-4 md:px-8 lg:px-[80px] pt-6 pb-5 border-b border-radut-pink-dark bg-radut-black">
+    <nav className="flex justify-between items-center px-4 md:px-6 lg:px-[80px] py-4 md:py-6 border-b border-radut-pink-dark bg-radut-black">
       {/* Logo */}
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-2 md:gap-3 flex-shrink-0">
         <img
-          src="https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F4b3d14af5af546198c71960731323ad1?format=webp&width=800"
+          src="https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F40c2ed3087224173b81212fc1cdfc88c?format=webp&width=800"
           alt="Radut Verse Logo"
-          className="h-12 w-12 object-contain"
+          className="h-10 md:h-12 w-auto object-contain"
         />
-        <span className="text-white font-alexandria text-lg font-bold hidden sm:inline">
-          Radut Verse
-        </span>
       </div>
 
-      {/* Navigation Items - Hidden on mobile, shown on desktop */}
-      <div className="hidden lg:flex items-center gap-10 self-stretch">
+      {/* Navigation Items - Hidden on mobile, shown on lg */}
+      <div className="hidden lg:flex items-center gap-8 self-stretch">
         <NavLink
           to="/"
           end
           className={({ isActive }) =>
-            `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-base font-normal hover:text-white transition-colors`
+            `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm md:text-base font-normal hover:text-white transition-colors whitespace-nowrap`
           }
         >
           Home
@@ -29,7 +26,7 @@ export default function Navigation() {
         <NavLink
           to="/about"
           className={({ isActive }) =>
-            `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-base font-normal hover:text-white transition-colors`
+            `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm md:text-base font-normal hover:text-white transition-colors whitespace-nowrap`
           }
         >
           About
@@ -37,7 +34,7 @@ export default function Navigation() {
         <NavLink
           to="/team"
           className={({ isActive }) =>
-            `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-base font-normal hover:text-white transition-colors`
+            `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm md:text-base font-normal hover:text-white transition-colors whitespace-nowrap`
           }
         >
           Team
@@ -45,7 +42,7 @@ export default function Navigation() {
         <NavLink
           to="/news"
           className={({ isActive }) =>
-            `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-base font-normal hover:text-white transition-colors`
+            `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm md:text-base font-normal hover:text-white transition-colors whitespace-nowrap`
           }
         >
           News
@@ -53,40 +50,21 @@ export default function Navigation() {
         <NavLink
           to="/faq"
           className={({ isActive }) =>
-            `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-base font-normal hover:text-white transition-colors`
+            `${isActive ? "text-white" : "text-radut-pink"} font-alexandria text-sm md:text-base font-normal hover:text-white transition-colors whitespace-nowrap`
           }
         >
           FAQ
         </NavLink>
       </div>
 
-      {/* Auth Buttons - Hidden on mobile, shown on tablet+ */}
-      <div className="hidden md:flex items-center gap-4">
+      {/* Explore Button - Hidden on mobile, shown on sm+ */}
+      <div className="hidden sm:flex items-center gap-3 flex-shrink-0">
         <Link
           to="/coming-soon"
-          className="px-6 py-2 bg-radut-pink text-black font-alexandria text-base font-normal rounded-full hover:bg-opacity-90 transition-all"
+          className="px-4 md:px-6 py-2 bg-radut-pink text-black font-alexandria text-sm md:text-base font-normal rounded-full hover:bg-opacity-90 transition-all whitespace-nowrap"
         >
           Explore
         </Link>
-      </div>
-
-      {/* Mobile Menu Button (hidden) */}
-      <div className="hidden">
-        <button className="text-white p-2">
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-        </button>
       </div>
     </nav>
   );

@@ -42,33 +42,33 @@ export default function FAQ() {
   };
 
   return (
-    <section className="bg-radut-black px-4 md:px-8 lg:px-[217px] py-16 md:py-20 relative">
+    <section className="bg-radut-black px-4 sm:px-6 md:px-8 lg:px-[217px] py-8 sm:py-12 md:py-16 lg:py-20 relative">
       {/* Background glow effect */}
       <div className="absolute left-0 bottom-0 w-[606px] h-[425px] rounded-full bg-blue-500/6 blur-[139.9px] -translate-x-1/4 translate-y-1/2"></div>
 
       <div className="relative z-10">
         {/* Section Header */}
         <motion.div
-          className="flex flex-col items-center gap-5 mb-16 md:mb-18"
+          className="flex flex-col items-center gap-4 sm:gap-5 mb-12 sm:mb-16 md:mb-18 lg:mb-20"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
           {/* Badge */}
-          <div className="flex justify-center items-center gap-2 px-5 py-3 border border-radut-pink-dark rounded-3xl backdrop-blur-[20px]">
-            <span className="text-radut-pink font-alexandria text-sm font-normal">
+          <div className="flex justify-center items-center gap-2 px-4 sm:px-5 py-2 sm:py-3 border border-radut-pink-dark rounded-3xl backdrop-blur-[20px]">
+            <span className="text-radut-pink font-alexandria text-xs sm:text-sm font-normal">
               FAQ
             </span>
           </div>
 
           {/* Title */}
-          <h2 className="text-white font-alexandria text-3xl md:text-4xl lg:text-5xl font-normal leading-[100%] capitalize text-center">
+          <h2 className="text-white font-alexandria text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal leading-[100%] capitalize text-center">
             Get Answers To Common Questions
           </h2>
 
           {/* Description */}
-          <p className="text-radut-pink font-inter text-lg font-normal leading-[140%] text-center max-w-[644px]">
+          <p className="text-radut-pink font-inter text-sm sm:text-base md:text-lg lg:text-lg font-normal leading-[140%] text-center max-w-full lg:max-w-[644px] px-2 sm:px-0">
             From basics to advanced topics, find everything you need to know
             right here. Let us help you simplify the process and find the
             clarity you're looking
@@ -76,21 +76,21 @@ export default function FAQ() {
         </motion.div>
 
         {/* FAQ Items */}
-        <div className="flex flex-col gap-7 max-w-[792px] mx-auto">
+        <div className="flex flex-col gap-4 sm:gap-5 md:gap-7 max-w-full lg:max-w-[792px] mx-auto">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="border border-radut-pink-dark p-4 md:p-5 cursor-pointer transition-all hover:bg-radut-pink-dark/10"
+              className="border border-radut-pink-dark p-3 sm:p-4 md:p-5 cursor-pointer transition-all hover:bg-radut-pink-dark/10"
               onClick={() => toggleFAQ(index)}
             >
-              <div className="flex justify-between items-center">
-                <h3 className="flex-1 text-white font-alexandria text-base font-normal pr-4">
+              <div className="flex justify-between items-start gap-3">
+                <h3 className="flex-1 text-white font-alexandria text-sm sm:text-base font-normal">
                   {faq.question}
                 </h3>
 
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 mt-1">
                   <svg
-                    className={`w-5 h-5 text-white transition-transform ${openIndex === index ? "rotate-45" : ""}`}
+                    className={`w-4 h-4 sm:w-5 sm:h-5 text-white transition-transform ${openIndex === index ? "rotate-45" : ""}`}
                     viewBox="0 0 20 20"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -115,8 +115,8 @@ export default function FAQ() {
 
               {/* Answer - expandable */}
               {openIndex === index && (
-                <div className="mt-4 pt-4 border-t border-radut-pink-dark/30">
-                  <p className="text-radut-pink font-inter text-sm leading-[140%]">
+                <div className="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-radut-pink-dark/30">
+                  <p className="text-radut-pink font-inter text-xs sm:text-sm leading-[140%]">
                     {faq.answer}
                   </p>
                 </div>

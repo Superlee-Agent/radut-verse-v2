@@ -2,27 +2,27 @@ import { motion } from "framer-motion";
 
 export default function BlockchainFeatures() {
   return (
-    <section className="bg-radut-black px-4 md:px-8 lg:px-[120px] py-16 md:py-[60px] relative">
+    <section className="bg-radut-black px-4 sm:px-6 md:px-8 lg:px-[120px] py-8 sm:py-12 md:py-16 lg:py-[60px] relative">
       {/* Background glow effects */}
       <div className="absolute right-0 bottom-0 w-[606px] h-[425px] rounded-full bg-blue-500/6 blur-[139.9px] translate-x-1/4 translate-y-1/2"></div>
 
       <div className="relative z-10">
         {/* Section Header */}
-        <div className="flex flex-col items-center gap-5 mb-16 md:mb-20">
+        <div className="flex flex-col items-center gap-4 sm:gap-5 mb-12 sm:mb-16 md:mb-20">
           {/* Badge */}
-          <div className="flex justify-center items-center gap-2 px-5 py-3 border border-radut-pink-dark rounded-3xl backdrop-blur-[20px]">
-            <span className="text-radut-pink font-alexandria text-sm font-normal">
+          <div className="flex justify-center items-center gap-2 px-4 sm:px-5 py-2 sm:py-3 border border-radut-pink-dark rounded-3xl backdrop-blur-[20px]">
+            <span className="text-radut-pink font-alexandria text-xs sm:text-sm font-normal">
               News
             </span>
           </div>
 
           {/* Title */}
-          <h2 className="text-white font-alexandria text-3xl md:text-4xl lg:text-5xl font-normal leading-[100%] capitalize text-center">
+          <h2 className="text-white font-alexandria text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal leading-[100%] capitalize text-center">
             News
           </h2>
 
           {/* Description */}
-          <p className="text-radut-pink font-inter text-lg font-normal leading-[140%] text-center max-w-[644px]">
+          <p className="text-radut-pink font-inter text-sm sm:text-base md:text-lg lg:text-lg font-normal leading-[140%] text-center max-w-full lg:max-w-[644px] px-2 sm:px-0">
             Leading the way in blockchain innovation, we are redefining how the
             world connects, secures, and transacts, bringing a new era of
             decentralized technology.
@@ -30,12 +30,12 @@ export default function BlockchainFeatures() {
         </div>
 
         {/* Feature Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {/* Scalability Card */}
-          <div className="radut-card flex flex-col items-center gap-9 p-8 md:p-12 rounded-xl">
-            <div className="flex justify-center items-center w-12 h-12">
+          <div className="radut-card flex flex-col items-center gap-6 sm:gap-9 p-6 sm:p-8 md:p-12 rounded-xl">
+            <div className="flex justify-center items-center w-10 h-10 sm:w-12 sm:h-12">
               <svg
-                className="w-12 h-12"
+                className="w-10 h-10 sm:w-12 sm:h-12"
                 viewBox="0 0 49 48"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -50,21 +50,21 @@ export default function BlockchainFeatures() {
               </svg>
             </div>
 
-            <div className="flex flex-col items-center gap-4 w-full">
-              <h3 className="text-white font-inter text-xl font-normal leading-[140%] text-center">
+            <div className="flex flex-col items-center gap-3 sm:gap-4 w-full">
+              <h3 className="text-white font-inter text-base sm:text-lg md:text-xl font-normal leading-[140%] text-center">
                 Scalability
               </h3>
-              <p className="text-radut-pink font-alexandria text-base font-normal text-center">
+              <p className="text-radut-pink font-alexandria text-sm sm:text-base font-normal text-center">
                 Adapt and grow, no matter the demand on grow
               </p>
             </div>
           </div>
 
           {/* Decentralisation Card */}
-          <div className="radut-card flex flex-col items-center gap-9 p-8 md:p-12 rounded-xl">
-            <div className="flex justify-center items-center w-12 h-12">
+          <div className="radut-card flex flex-col items-center gap-6 sm:gap-9 p-6 sm:p-8 md:p-12 rounded-xl">
+            <div className="flex justify-center items-center w-10 h-10 sm:w-12 sm:h-12">
               <svg
-                className="w-12 h-12"
+                className="w-10 h-10 sm:w-12 sm:h-12"
                 viewBox="0 0 48 48"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -79,21 +79,21 @@ export default function BlockchainFeatures() {
               </svg>
             </div>
 
-            <div className="flex flex-col items-center gap-4 w-full">
-              <h3 className="text-white font-inter text-xl font-normal leading-[140%] text-center">
+            <div className="flex flex-col items-center gap-3 sm:gap-4 w-full">
+              <h3 className="text-white font-inter text-base sm:text-lg md:text-xl font-normal leading-[140%] text-center">
                 Decentralisation
               </h3>
-              <p className="text-radut-pink font-alexandria text-base font-normal text-center">
+              <p className="text-radut-pink font-alexandria text-sm sm:text-base font-normal text-center">
                 Decentralization. Web3 aims to move away from the centralized
               </p>
             </div>
           </div>
 
           {/* Connectivity Card */}
-          <div className="radut-card flex flex-col items-center gap-9 p-8 md:p-12 rounded-xl">
-            <div className="flex justify-center items-center w-12 h-12">
+          <div className="radut-card flex flex-col items-center gap-6 sm:gap-9 p-6 sm:p-8 md:p-12 rounded-xl">
+            <div className="flex justify-center items-center w-10 h-10 sm:w-12 sm:h-12">
               <svg
-                className="w-12 h-12"
+                className="w-10 h-10 sm:w-12 sm:h-12"
                 viewBox="0 0 49 48"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -171,11 +171,11 @@ export default function BlockchainFeatures() {
               </svg>
             </div>
 
-            <div className="flex flex-col items-center gap-4 w-full">
-              <h3 className="text-white font-inter text-xl font-normal leading-[140%] text-center">
+            <div className="flex flex-col items-center gap-3 sm:gap-4 w-full">
+              <h3 className="text-white font-inter text-base sm:text-lg md:text-xl font-normal leading-[140%] text-center">
                 Connectivity
               </h3>
-              <p className="text-radut-pink font-alexandria text-base font-normal text-center">
+              <p className="text-radut-pink font-alexandria text-sm sm:text-base font-normal text-center">
                 computers will be able to understand information similarly to
                 humans
               </p>
