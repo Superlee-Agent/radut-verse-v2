@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function Features() {
   return (
     <section
-      className="bg-radut-black bg-no-repeat bg-center bg-cover px-[120px] py-[80px] relative"
+      className="bg-radut-black bg-no-repeat bg-center bg-cover px-4 sm:px-6 md:px-8 lg:px-[120px] py-8 sm:py-12 md:py-16 lg:py-[80px] relative"
       style={{
         backgroundImage:
           "url(https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F9b585062be044f7e9946bb8930013e15)",
@@ -16,26 +16,26 @@ export default function Features() {
       <div className="relative z-10">
         {/* Section Header */}
         <motion.div
-          className="flex flex-col items-center gap-5 mb-16 md:mb-20"
+          className="flex flex-col items-center gap-4 sm:gap-5 mb-12 sm:mb-16 md:mb-20"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
           {/* Badge */}
-          <div className="flex justify-center items-center gap-2 px-5 py-3 border border-radut-pink-dark rounded-3xl backdrop-blur-[20px]">
-            <span className="text-radut-pink font-alexandria text-sm font-normal">
+          <div className="flex justify-center items-center gap-2 px-4 sm:px-5 py-2 sm:py-3 border border-radut-pink-dark rounded-3xl backdrop-blur-[20px]">
+            <span className="text-radut-pink font-alexandria text-xs sm:text-sm font-normal">
               About
             </span>
           </div>
 
           {/* Title */}
-          <h2 className="text-white font-alexandria text-3xl md:text-4xl lg:text-5xl font-normal leading-[100%] capitalize text-center">
+          <h2 className="text-white font-alexandria text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal leading-[100%] capitalize text-center">
             Introducing the RadutVerse
           </h2>
 
           {/* Description */}
-          <p className="text-white font-inter text-lg font-normal leading-[140%] text-center max-w-[644px]">
+          <p className="text-white font-inter text-sm sm:text-base md:text-lg lg:text-lg font-normal leading-[140%] text-center max-w-full lg:max-w-[644px] px-2 sm:px-0">
             RadutVerse is the home of tokenized IP a digital world where ideas
             become assets. Here, creators can transform their intellectual
             property into NFTs, trade seamlessly through token swaps, and unlock
@@ -45,10 +45,10 @@ export default function Features() {
         </motion.div>
 
         {/* Feature Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {/* Scalability Card */}
           <div
-            className="radut-card flex flex-col items-center gap-9 p-8 md:p-12 rounded-xl transition-transform duration-300 hover:scale-[1.02] will-change-transform"
+            className="radut-card flex flex-col items-center gap-6 sm:gap-9 p-6 sm:p-8 md:p-12 rounded-xl transition-transform duration-300 hover:scale-[1.02] will-change-transform"
             data-animate="fade-up"
           >
             <div className="flex justify-center items-center w-12 h-12">
@@ -68,21 +68,21 @@ export default function Features() {
               </svg>
             </div>
 
-            <div className="flex flex-col items-center gap-4 w-full">
-              <h3 className="text-white font-inter text-xl font-normal leading-[140%] text-center">
+            <div className="flex flex-col items-center gap-3 sm:gap-4 w-full">
+              <h3 className="text-white font-inter text-base sm:text-lg md:text-xl font-normal leading-[140%] text-center">
                 Scalability
               </h3>
-              <p className="text-radut-pink font-alexandria text-base font-normal text-center">
+              <p className="text-radut-pink font-alexandria text-sm sm:text-base font-normal text-center">
                 Adapt and grow, no matter the demand on grow
               </p>
             </div>
           </div>
 
           {/* Decentralisation Card */}
-          <div className="radut-card flex flex-col items-center gap-9 p-8 md:p-12 rounded-xl">
-            <div className="flex justify-center items-center w-12 h-12">
+          <div className="radut-card flex flex-col items-center gap-6 sm:gap-9 p-6 sm:p-8 md:p-12 rounded-xl">
+            <div className="flex justify-center items-center w-10 h-10 sm:w-12 sm:h-12">
               <svg
-                className="w-12 h-12"
+                className="w-10 h-10 sm:w-12 sm:h-12"
                 viewBox="0 0 48 49"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -97,21 +97,21 @@ export default function Features() {
               </svg>
             </div>
 
-            <div className="flex flex-col items-center gap-4 w-full">
-              <h3 className="text-white font-inter text-xl font-normal leading-[140%] text-center">
+            <div className="flex flex-col items-center gap-3 sm:gap-4 w-full">
+              <h3 className="text-white font-inter text-base sm:text-lg md:text-xl font-normal leading-[140%] text-center">
                 Decentralisation
               </h3>
-              <p className="text-radut-pink font-alexandria text-base font-normal text-center">
+              <p className="text-radut-pink font-alexandria text-sm sm:text-base font-normal text-center">
                 Decentralization. Web3 aims to move away from the centralized
               </p>
             </div>
           </div>
 
           {/* Connectivity Card */}
-          <div className="radut-card flex flex-col items-center gap-9 p-8 md:p-12 rounded-xl">
-            <div className="flex justify-center items-center w-12 h-12">
+          <div className="radut-card flex flex-col items-center gap-6 sm:gap-9 p-6 sm:p-8 md:p-12 rounded-xl">
+            <div className="flex justify-center items-center w-10 h-10 sm:w-12 sm:h-12">
               <svg
-                className="w-12 h-12"
+                className="w-10 h-10 sm:w-12 sm:h-12"
                 viewBox="0 0 49 49"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -208,11 +208,11 @@ export default function Features() {
               </svg>
             </div>
 
-            <div className="flex flex-col items-center gap-4 w-full">
-              <h3 className="text-white font-inter text-xl font-normal leading-[140%] text-center">
+            <div className="flex flex-col items-center gap-3 sm:gap-4 w-full">
+              <h3 className="text-white font-inter text-base sm:text-lg md:text-xl font-normal leading-[140%] text-center">
                 Connectivity
               </h3>
-              <p className="text-radut-pink font-alexandria text-base font-normal text-center">
+              <p className="text-radut-pink font-alexandria text-sm sm:text-base font-normal text-center">
                 computers will be able to understand information similarly to
                 humans
               </p>
