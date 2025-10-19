@@ -67,7 +67,7 @@ export default function Hero() {
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F7558325392d941238c18bc493d43be1c"
                 alt="Character"
-                className="w-auto h-full object-contain max-w-full"
+                className="w-auto h-full object-contain max-w-full mt-[188px]"
               />
 
               {/* Glow effect background */}
