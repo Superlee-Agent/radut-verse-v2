@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -28,7 +27,7 @@ export default function Hero() {
               </h1>
 
               {/* Subheading */}
-              <p className="text-radut-pink font-inter text-lg md:text-xl font-normal leading-[140%] max-w-[583px] lg:pr-[22px]">
+              <p className="text-white font-inter text-lg md:text-xl font-normal leading-[140%] max-w-[583px] lg:pr-[22px]">
                 RadutVerse is the home of tokenized IP a superverse where NFTs,
                 tokens, and AI come together to unlock infinite possibilities
                 for creators and communities.
@@ -37,12 +36,12 @@ export default function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center gap-5">
-              <Link
-                to="/coming-soon"
+              <a
+                href="https://89c88839ef37414094d98df7aee2c440-6c08429141344e4387200a7f2.fly.dev/coming-soon"
                 className="flex justify-center items-center gap-1.5 px-6 py-3.5 bg-radut-pink text-black font-alexandria text-lg font-normal rounded-full hover:bg-opacity-90 transition-all"
               >
                 Explore
-              </Link>
+              </a>
 
               <button className="flex justify-center items-center gap-1.5 px-6 py-3.5 border-[1.5px] border-radut-pink-dark rounded-full text-white font-alexandria text-lg font-normal hover:bg-radut-pink-dark transition-all">
                 <svg
