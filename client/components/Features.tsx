@@ -2,7 +2,10 @@ import { motion } from "framer-motion";
 
 export default function Features() {
   return (
-    <section className="bg-radut-black px-4 md:px-8 lg:px-[120px] py-16 md:py-20 relative">
+    <section
+      className="bg-radut-black bg-no-repeat bg-center bg-cover px-[120px] py-[80px] relative"
+      style={{ backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F9b585062be044f7e9946bb8930013e15)' }}
+    >
       {/* Background glow effects */}
       <div className="absolute left-0 top-0 w-[600px] h-[600px] rounded-full bg-blue-500/16 blur-[139.9px] -translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute right-0 bottom-0 w-[606px] h-[425px] rounded-full bg-blue-500/6 blur-[139.9px] translate-x-1/4 translate-y-1/2"></div>
@@ -29,7 +32,7 @@ export default function Features() {
           </h2>
 
           {/* Description */}
-          <p className="text-radut-pink font-inter text-lg font-normal leading-[140%] text-center max-w-[644px]">
+          <p className="text-white font-inter text-lg font-normal leading-[140%] text-center max-w-[644px]">
             RadutVerse is the home of tokenized IP a digital world where ideas
             become assets. Here, creators can transform their intellectual
             property into NFTs, trade seamlessly through token swaps, and unlock
