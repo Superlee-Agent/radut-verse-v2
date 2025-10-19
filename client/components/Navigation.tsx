@@ -6,10 +6,13 @@ export default function Navigation() {
       {/* Logo */}
       <div className="flex items-center gap-3">
         <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/b74e70b0bf94ee188832387fb472fb0ade4d5a51?width=306"
-          alt="Radutverse Logo"
-          className="h-[45.87px] w-[105px] object-contain"
+          src="https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F4b3d14af5af546198c71960731323ad1?format=webp&width=800"
+          alt="Radut Verse Logo"
+          className="h-12 w-12 object-contain"
         />
+        <span className="text-white font-alexandria text-lg font-bold hidden sm:inline">
+          Radut Verse
+        </span>
       </div>
 
       {/* Navigation Items - Hidden on mobile, shown on desktop */}
