@@ -39,7 +39,10 @@ export default function Team() {
   return (
     <section
       className="bg-radut-purple-dark bg-no-repeat bg-center bg-cover px-[120px] py-[120px] relative"
-      style={{ backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F1a6a752ead9e4fb2b4cfdbff3821b820)' }}
+      style={{
+        backgroundImage:
+          "url(https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F1a6a752ead9e4fb2b4cfdbff3821b820)",
+      }}
     >
       {/* Background glow effect */}
       <div className="absolute right-0 bottom-0 w-[606px] h-[425px] rounded-full bg-blue-500/6 blur-[139.9px] translate-x-1/4 translate-y-1/2"></div>

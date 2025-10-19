@@ -4,7 +4,10 @@ export default function Features() {
   return (
     <section
       className="bg-radut-black bg-no-repeat bg-center bg-cover px-[120px] py-[80px] relative"
-      style={{ backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F9b585062be044f7e9946bb8930013e15)' }}
+      style={{
+        backgroundImage:
+          "url(https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F9b585062be044f7e9946bb8930013e15)",
+      }}
     >
       {/* Background glow effects */}
       <div className="absolute left-0 top-0 w-[600px] h-[600px] rounded-full bg-blue-500/16 blur-[139.9px] -translate-x-1/2 -translate-y-1/2"></div>
