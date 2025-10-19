@@ -6,7 +6,7 @@ export default function Navigation() {
       {/* Logo */}
       <div className="flex items-center gap-3">
         <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/b74e70b0bf94ee188832387fb472fb0ade4d5a51?width=306"
+          src="https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F6cb00ece89864cf39382913734ec2caa?format=webp&width=800"
           alt="Radutverse Logo"
           className="h-[45.87px] w-[105px] object-contain"
         />
