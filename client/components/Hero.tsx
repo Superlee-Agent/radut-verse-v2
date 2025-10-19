@@ -4,7 +4,13 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <section className="bg-radut-black bg-no-repeat bg-center bg-cover px-[80px]">
+    <section
+      className="bg-radut-black bg-no-repeat bg-center bg-cover px-[80px]"
+      style={{
+        backgroundImage:
+          "url(https://cdn.builder.io/api/v1/image/assets%2Fc692190cfd69486380fecff59911b51b%2F7abeaae8a46a4333937ee9a7f2257d5b)",
+      }}
+    >
       <div className="py-16 md:py-22 lg:py-[88px] flex flex-col justify-center items-center gap-8">
         <div className="flex flex-col lg:flex-row justify-center items-center w-full gap-[33px]">
           {/* Left Content */}
