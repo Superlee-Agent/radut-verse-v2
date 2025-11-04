@@ -110,22 +110,20 @@ export default function Footer() {
               </h4>
               <div className="flex flex-col gap-2">
                 <a
-                  href="#"
+                  href="https://x.com/RadutVerse"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-radut-pink font-alexandria text-xs sm:text-sm font-normal hover:text-white transition-colors"
                 >
-                  Facebook
+                  X
                 </a>
                 <a
-                  href="#"
+                  href="https://discord.gg/DNXGJ7mVkR"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-radut-pink font-alexandria text-xs sm:text-sm font-normal hover:text-white transition-colors"
                 >
-                  Instagram
-                </a>
-                <a
-                  href="#"
-                  className="text-radut-pink font-alexandria text-xs sm:text-sm font-normal hover:text-white transition-colors"
-                >
-                  LinkedIn
+                  Discord
                 </a>
               </div>
             </div>
