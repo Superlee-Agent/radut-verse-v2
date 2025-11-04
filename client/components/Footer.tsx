@@ -83,22 +83,10 @@ export default function Footer() {
               </h4>
               <div className="flex flex-col gap-2">
                 <Link
-                  to="/help"
-                  className="text-radut-pink font-alexandria text-xs sm:text-sm font-normal hover:text-white transition-colors"
-                >
-                  Help Centre
-                </Link>
-                <Link
                   to="/faq"
                   className="text-radut-pink font-alexandria text-xs sm:text-sm font-normal hover:text-white transition-colors"
                 >
                   FAQ
-                </Link>
-                <Link
-                  to="/forum"
-                  className="text-radut-pink font-alexandria text-xs sm:text-sm font-normal hover:text-white transition-colors"
-                >
-                  Forum
                 </Link>
               </div>
             </div>
