@@ -36,7 +36,7 @@ export default function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-5 w-full sm:w-auto">
               <a
-                href="https://radut-agent-v2.vercel.app/"
+                href="https://radutverse.vercel.app/"
                 className="flex justify-center items-center gap-1.5 px-5 sm:px-6 py-2.5 sm:py-3.5 bg-radut-pink text-black font-alexandria text-sm sm:text-base md:text-lg font-normal rounded-full hover:bg-opacity-90 transition-all w-full sm:w-auto"
               >
                 Explore

@@ -60,7 +60,7 @@ export default function Navigation() {
       {/* Explore Button - Hidden on mobile, shown on sm+ */}
       <div className="hidden sm:flex items-center gap-3 flex-shrink-0">
         <a
-          href="https://radut-agent-v2.vercel.app/"
+          href="https://radutverse.vercel.app/"
           className="px-4 md:px-6 py-2 bg-radut-pink text-black font-alexandria text-sm md:text-base font-normal rounded-full hover:bg-opacity-90 transition-all whitespace-nowrap"
         >
           Explore
