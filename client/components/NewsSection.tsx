@@ -121,7 +121,7 @@ export default function NewsSection() {
                 </h3>
 
                 {/* Description */}
-                <p className="text-radut-pink font-alexandria text-sm sm:text-base font-normal leading-[140%] flex-grow">
+                <p className="text-radut-pink font-alexandria text-sm sm:text-base font-normal leading-[140%] flex-grow line-clamp-1">
                   {item.description}
                 </p>
 
