@@ -6,34 +6,39 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: "What is NexoFi, and how does it work?",
+      question: "Why radutverse built on story protocol?",
       answer:
-        "NexoFi is a revolutionary Web3 finance platform that provides secure, scalable, and decentralized solutions for your digital assets. It leverages blockchain technology to offer financial freedom through innovative DeFi protocols.",
+        "RadutVerse is built on Story Protocol because it provides the perfect foundation for decentralized IP creation, registration, and monetization. Story Protocol transforms intellectual property into programmable assets, making it possible for creators to protect, share, and license their work directly on-chain.",
     },
     {
-      question: "How is blockchain related to cryptocurrency?",
+      question: "What is story protocol?",
       answer:
-        "Blockchain is the underlying technology that powers cryptocurrencies. It's a distributed ledger that records all transactions across a network of computers, providing transparency, security, and decentralization.",
+        'Story Protocol is a blockchain-based framework designed to manage and monetize intellectual property (IP) in an open, programmable way. Think of it as the "GitHub for IP" – a system that lets creators register their ideas, prove ownership, and build remixable, on-chain IP economies.',
     },
     {
-      question: "Is Blockchain technology secure?",
+      question: "Registers IP on-chain",
       answer:
-        "Yes, blockchain technology is inherently secure due to its cryptographic hashing, distributed nature, and consensus mechanisms. However, security also depends on proper implementation and user practices.",
+        "Story lets creators record their works – art, music, code, stories, characters – on the blockchain with full provenance and metadata.",
     },
     {
-      question: "How does blockchain enhance security?",
+      question: "Tracks ownership and derivatives",
       answer:
-        "Blockchain enhances security through cryptographic hashing, immutable records, distributed consensus, and transparency. Each block is linked to the previous one, making it extremely difficult to alter historical data.",
+        "Every remix, adaptation, or spin-off of an IP can be linked to the original, creating a transparent chain of ownership and attribution.",
     },
     {
-      question: "Can blockchain be hacked?",
+      question: "Automates licensing and royalties",
       answer:
-        "While blockchain networks themselves are very secure, individual applications, wallets, or exchanges built on blockchain can be vulnerable. The blockchain's core protocol is resistant to hacking due to its distributed nature.",
+        "Smart contracts handle how creators get paid when others use or remix their work, ensuring automatic, trustless royalty distribution.",
     },
     {
-      question: "How can I implement blockchain in my industry",
+      question: "Enables composable creativity",
       answer:
-        "Blockchain can be implemented across various industries through smart contracts, supply chain tracking, identity verification, and decentralized applications. We offer consultation services to help integrate blockchain into your business.",
+        "Just like DeFi made money composable, Story makes creativity composable – anyone can build new IP on top of existing ones while keeping rights intact.",
+    },
+    {
+      question: "Provides SDK and infrastructure",
+      answer:
+        "Developers can integrate Story's SDK to bring IP registration, tracking, and monetization directly into their apps or games.",
     },
   ];
 
