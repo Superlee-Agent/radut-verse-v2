@@ -13,7 +13,7 @@ export default function FAQ() {
     {
       question: "What is story protocol?",
       answer:
-        "Story Protocol is a blockchain-based framework designed to manage and monetize intellectual property (IP) in an open, programmable way. Think of it as the \"GitHub for IP\" – a system that lets creators register their ideas, prove ownership, and build remixable, on-chain IP economies.",
+        'Story Protocol is a blockchain-based framework designed to manage and monetize intellectual property (IP) in an open, programmable way. Think of it as the "GitHub for IP" – a system that lets creators register their ideas, prove ownership, and build remixable, on-chain IP economies.',
     },
     {
       question: "Registers IP on-chain",
