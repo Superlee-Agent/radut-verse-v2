@@ -3,36 +3,49 @@ import { motion } from "framer-motion";
 export default function Team() {
   const teamMembers = [
     {
-      quote:
-        "AI streamlines international client coordination by scheduling emails for optimal inbox timing.",
-      name: "Darrell Steward",
-      position: "Co-founder",
+      name: "Razornero",
       avatar:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=96&h=96&fit=crop&crop=face",
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2Fa2a2362745924b71bea55d93530be9c3?format=webp&width=800",
     },
     {
-      quote:
-        "AI streamlines international client coordination by scheduling emails for optimal inbox timing.",
-      name: "Darrell Steward",
-      position: "Co-founder",
+      name: "Fikkkfx",
       avatar:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=96&h=96&fit=crop&crop=face",
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2Fd348951bb38c4bc590be64bfa74f2ddc?format=webp&width=800",
     },
     {
-      quote:
-        "AI streamlines international client coordination by scheduling emails for optimal inbox timing.",
-      name: "Darrell Steward",
-      position: "Co-founder",
+      name: "Apil",
       avatar:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=96&h=96&fit=crop&crop=face",
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2Fdf368c4cd28a40a4bf197263d05edaef?format=webp&width=800",
     },
     {
-      quote:
-        "AI streamlines international client coordination by scheduling emails for optimal inbox timing.",
-      name: "Darrell Steward",
-      position: "Co-founder",
+      name: "Dimzjin",
       avatar:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?w=96&h=96&fit=crop&crop=face",
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2Ff59dab59f1fc443dbdbac8bf2ea159d0?format=webp&width=800",
+    },
+    {
+      name: "IndraRG",
+      avatar:
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2F7f73eea1063f45328a264cbb62b5dbcf?format=webp&width=800",
+    },
+    {
+      name: "Cello",
+      avatar:
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2F174594a3e02f4bebb526a0bd15cdafe1?format=webp&width=800",
+    },
+    {
+      name: "Nimu",
+      avatar:
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2Fc9f3cfea55ad495b96745e69071f50b7?format=webp&width=800",
+    },
+    {
+      name: "Tudel",
+      avatar:
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2Fc8bed9e0f6d94c6897d6eceff99250ed?format=webp&width=800",
+    },
+    {
+      name: "Raraaaa",
+      avatar:
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2F69df539555ab49f8b14d343b0856c04e?format=webp&width=800",
     },
   ];
 
@@ -81,39 +94,26 @@ export default function Team() {
           {teamMembers.map((member, index) => (
             <motion.div
               key={index}
-              className="radut-card-team flex flex-col items-start gap-6 sm:gap-8 p-6 sm:p-8 rounded-2xl"
+              className="radut-card-team flex flex-col items-center gap-4 sm:gap-5 p-6 sm:p-8 rounded-2xl"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.45, delay: index * 0.05 }}
               whileHover={{ scale: 1.01 }}
             >
-              {/* Quote */}
-              <p className="text-radut-gray font-alexandria text-sm sm:text-base font-normal leading-normal">
-                "{member.quote}"
-              </p>
-
-              {/* Member Info */}
-              <div className="flex items-center gap-3 sm:gap-4 w-full">
-                {/* Avatar */}
-                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden bg-gray-300 flex-shrink-0">
-                  <img
-                    src={member.avatar}
-                    alt={member.name}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-
-                {/* Name and Position */}
-                <div className="flex flex-col items-start min-w-0">
-                  <h4 className="radut-text-gradient font-alexandria text-xs sm:text-sm font-normal leading-normal truncate">
-                    {member.name}
-                  </h4>
-                  <p className="text-radut-pink-medium font-alexandria text-xs font-normal leading-normal truncate">
-                    {member.position}
-                  </p>
-                </div>
+              {/* Avatar */}
+              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden bg-gray-300 flex-shrink-0">
+                <img
+                  src={member.avatar}
+                  alt={member.name}
+                  className="w-full h-full object-cover"
+                />
               </div>
+
+              {/* Name */}
+              <h4 className="radut-text-gradient font-alexandria text-sm sm:text-base font-normal leading-normal text-center">
+                {member.name}
+              </h4>
             </motion.div>
           ))}
         </div>

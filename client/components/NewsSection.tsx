@@ -12,43 +12,23 @@ interface NewsItem {
 const newsItems: NewsItem[] = [
   {
     id: 1,
-    title: "Radutverse Launches New Blockchain Initiative",
+    title: "Radutverse Launches - The Home of Tokenized IP",
     description:
-      "We are excited to announce the launch of our latest blockchain initiative aimed at revolutionizing decentralized technology and enhancing user experience.",
-    date: "March 15, 2025",
-    category: "Announcement",
+      "Radutverse is now live as the home of tokenized IP, a superverse where NFTs, tokens, and AI come together to unlock infinite possibilities for creators and communities.",
+    date: "September 11, 2025",
+    category: "Launch",
     image:
-      "https://api.builder.io/api/v1/image/assets/TEMP/893eb8aef7ccc715a1b7c235ad6105815b3ff981?width=400",
+      "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2Fccea24152aa1428aa4a942b01ce831d3?format=webp&width=800",
   },
   {
     id: 2,
-    title: "Major Partnership Announcement",
+    title: "Join the Radutverse Ecosystem Today",
     description:
-      "Radutverse has partnered with leading organizations to advance innovation in Web3 and blockchain technologies.",
-    date: "March 10, 2025",
-    category: "Partnership",
+      "Explore the revolutionary platform where NFTs, tokens, and AI technology combine to empower creators and build vibrant communities.",
+    date: "October 27, 2025",
+    category: "Announcement",
     image:
-      "https://api.builder.io/api/v1/image/assets/TEMP/893eb8aef7ccc715a1b7c235ad6105815b3ff981?width=400",
-  },
-  {
-    id: 3,
-    title: "Community Growth Milestone",
-    description:
-      "Our community has reached an exciting milestone with thousands of active members contributing to the ecosystem.",
-    date: "March 5, 2025",
-    category: "Milestone",
-    image:
-      "https://api.builder.io/api/v1/image/assets/TEMP/893eb8aef7ccc715a1b7c235ad6105815b3ff981?width=400",
-  },
-  {
-    id: 4,
-    title: "Technical Improvements Released",
-    description:
-      "We have released significant technical improvements to enhance platform performance and user security.",
-    date: "February 28, 2025",
-    category: "Update",
-    image:
-      "https://api.builder.io/api/v1/image/assets/TEMP/893eb8aef7ccc715a1b7c235ad6105815b3ff981?width=400",
+      "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2F4d119c0fc0964932a2f8dd52ad82c032?format=webp&width=800",
   },
 ];
 
