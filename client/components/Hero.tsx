@@ -41,22 +41,6 @@ export default function Hero() {
               >
                 Explore
               </a>
-
-              <button className="flex justify-center items-center gap-1.5 px-5 sm:px-6 py-2.5 sm:py-3.5 border-[1.5px] border-radut-pink-dark rounded-full text-white font-alexandria text-sm sm:text-base md:text-lg font-normal hover:bg-radut-pink-dark transition-all w-full sm:w-auto">
-                <svg
-                  className="w-5 sm:w-6 h-5 sm:h-6"
-                  viewBox="0 0 24 25"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M8 6.01044V20.0104L19 13.0104L8 6.01044Z"
-                    fill="white"
-                  />
-                </svg>
-                <span className="hidden sm:inline">Watch video</span>
-                <span className="sm:hidden">Watch</span>
-              </button>
             </div>
           </motion.div>
 
