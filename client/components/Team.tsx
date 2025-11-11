@@ -94,39 +94,26 @@ export default function Team() {
           {teamMembers.map((member, index) => (
             <motion.div
               key={index}
-              className="radut-card-team flex flex-col items-start gap-6 sm:gap-8 p-6 sm:p-8 rounded-2xl"
+              className="radut-card-team flex flex-col items-center gap-4 sm:gap-5 p-6 sm:p-8 rounded-2xl"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.45, delay: index * 0.05 }}
               whileHover={{ scale: 1.01 }}
             >
-              {/* Quote */}
-              <p className="text-radut-gray font-alexandria text-sm sm:text-base font-normal leading-normal">
-                "{member.quote}"
-              </p>
-
-              {/* Member Info */}
-              <div className="flex items-center gap-3 sm:gap-4 w-full">
-                {/* Avatar */}
-                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden bg-gray-300 flex-shrink-0">
-                  <img
-                    src={member.avatar}
-                    alt={member.name}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-
-                {/* Name and Position */}
-                <div className="flex flex-col items-start min-w-0">
-                  <h4 className="radut-text-gradient font-alexandria text-xs sm:text-sm font-normal leading-normal truncate">
-                    {member.name}
-                  </h4>
-                  <p className="text-radut-pink-medium font-alexandria text-xs font-normal leading-normal truncate">
-                    {member.position}
-                  </p>
-                </div>
+              {/* Avatar */}
+              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden bg-gray-300 flex-shrink-0">
+                <img
+                  src={member.avatar}
+                  alt={member.name}
+                  className="w-full h-full object-cover"
+                />
               </div>
+
+              {/* Name */}
+              <h4 className="radut-text-gradient font-alexandria text-sm sm:text-base font-normal leading-normal text-center">
+                {member.name}
+              </h4>
             </motion.div>
           ))}
         </div>
