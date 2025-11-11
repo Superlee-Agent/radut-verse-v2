@@ -3,36 +3,49 @@ import { motion } from "framer-motion";
 export default function Team() {
   const teamMembers = [
     {
-      quote:
-        "AI streamlines international client coordination by scheduling emails for optimal inbox timing.",
-      name: "Darrell Steward",
-      position: "Co-founder",
+      name: "Razornero",
       avatar:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=96&h=96&fit=crop&crop=face",
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2Fa2a2362745924b71bea55d93530be9c3?format=webp&width=800",
     },
     {
-      quote:
-        "AI streamlines international client coordination by scheduling emails for optimal inbox timing.",
-      name: "Darrell Steward",
-      position: "Co-founder",
+      name: "Fikkkfx",
       avatar:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=96&h=96&fit=crop&crop=face",
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2Fd348951bb38c4bc590be64bfa74f2ddc?format=webp&width=800",
     },
     {
-      quote:
-        "AI streamlines international client coordination by scheduling emails for optimal inbox timing.",
-      name: "Darrell Steward",
-      position: "Co-founder",
+      name: "Apil",
       avatar:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=96&h=96&fit=crop&crop=face",
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2Fdf368c4cd28a40a4bf197263d05edaef?format=webp&width=800",
     },
     {
-      quote:
-        "AI streamlines international client coordination by scheduling emails for optimal inbox timing.",
-      name: "Darrell Steward",
-      position: "Co-founder",
+      name: "Dimzjin",
       avatar:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?w=96&h=96&fit=crop&crop=face",
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2Ff59dab59f1fc443dbdbac8bf2ea159d0?format=webp&width=800",
+    },
+    {
+      name: "IndraRG",
+      avatar:
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2F7f73eea1063f45328a264cbb62b5dbcf?format=webp&width=800",
+    },
+    {
+      name: "Cello",
+      avatar:
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2F174594a3e02f4bebb526a0bd15cdafe1?format=webp&width=800",
+    },
+    {
+      name: "Nimu",
+      avatar:
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2Fc9f3cfea55ad495b96745e69071f50b7?format=webp&width=800",
+    },
+    {
+      name: "Tudel",
+      avatar:
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2Fc8bed9e0f6d94c6897d6eceff99250ed?format=webp&width=800",
+    },
+    {
+      name: "Raraaaa",
+      avatar:
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2F69df539555ab49f8b14d343b0856c04e?format=webp&width=800",
     },
   ];
 
