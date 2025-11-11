@@ -9,48 +9,7 @@ interface NewsItem {
   image?: string;
 }
 
-const newsItems: NewsItem[] = [
-  {
-    id: 1,
-    title: "Radutverse Launches New Blockchain Initiative",
-    description:
-      "We are excited to announce the launch of our latest blockchain initiative aimed at revolutionizing decentralized technology and enhancing user experience.",
-    date: "March 15, 2025",
-    category: "Announcement",
-    image:
-      "https://api.builder.io/api/v1/image/assets/TEMP/893eb8aef7ccc715a1b7c235ad6105815b3ff981?width=400",
-  },
-  {
-    id: 2,
-    title: "Major Partnership Announcement",
-    description:
-      "Radutverse has partnered with leading organizations to advance innovation in Web3 and blockchain technologies.",
-    date: "March 10, 2025",
-    category: "Partnership",
-    image:
-      "https://api.builder.io/api/v1/image/assets/TEMP/893eb8aef7ccc715a1b7c235ad6105815b3ff981?width=400",
-  },
-  {
-    id: 3,
-    title: "Community Growth Milestone",
-    description:
-      "Our community has reached an exciting milestone with thousands of active members contributing to the ecosystem.",
-    date: "March 5, 2025",
-    category: "Milestone",
-    image:
-      "https://api.builder.io/api/v1/image/assets/TEMP/893eb8aef7ccc715a1b7c235ad6105815b3ff981?width=400",
-  },
-  {
-    id: 4,
-    title: "Technical Improvements Released",
-    description:
-      "We have released significant technical improvements to enhance platform performance and user security.",
-    date: "February 28, 2025",
-    category: "Update",
-    image:
-      "https://api.builder.io/api/v1/image/assets/TEMP/893eb8aef7ccc715a1b7c235ad6105815b3ff981?width=400",
-  },
-];
+const newsItems: NewsItem[] = [];
 
 export default function NewsSection() {
   return (
