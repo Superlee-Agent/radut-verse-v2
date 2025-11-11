@@ -15,7 +15,7 @@ const newsItems: NewsItem[] = [
     title: "Radutverse Launches - The Home of Tokenized IP",
     description:
       "Radutverse is now live as the home of tokenized IP, a superverse where NFTs, tokens, and AI come together to unlock infinite possibilities for creators and communities.",
-    date: "November 11, 2024",
+    date: "September 11, 2025",
     category: "Launch",
     image:
       "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2Fccea24152aa1428aa4a942b01ce831d3?format=webp&width=800",
@@ -25,7 +25,7 @@ const newsItems: NewsItem[] = [
     title: "Join the Radutverse Ecosystem Today",
     description:
       "Explore the revolutionary platform where NFTs, tokens, and AI technology combine to empower creators and build vibrant communities.",
-    date: "November 11, 2024",
+    date: "October 27, 2025",
     category: "Announcement",
     image:
       "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2F4d119c0fc0964932a2f8dd52ad82c032?format=webp&width=800",
