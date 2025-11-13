@@ -45,7 +45,7 @@ export default function Team() {
     {
       name: "Raraaaa",
       avatar:
-        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2F69df539555ab49f8b14d343b0856c04e?format=webp&width=800",
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2F0c5ef75135f94ac8a9fbd3af5eca0619?format=webp&width=800",
     },
   ];
 
