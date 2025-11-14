@@ -47,6 +47,11 @@ export default function Team() {
       avatar:
         "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2F0c5ef75135f94ac8a9fbd3af5eca0619?format=webp&width=800",
     },
+    {
+      name: "Eleng",
+      avatar:
+        "https://cdn.builder.io/api/v1/image/assets%2F2711b768900f460f84e959042bd91f7e%2Fd555e05d9f354c22a116848cfda5149b?format=webp&width=800",
+    },
   ];
 
   return (
